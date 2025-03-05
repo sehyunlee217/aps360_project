@@ -1,0 +1,11 @@
+train: /Users/seunghyunlee/Desktop/aps360_project/yolov8_proj_data/images/train/
+val: /Users/seunghyunlee/Desktop/aps360_project/yolov8_proj_data/images/valid/
+nc: 2
+names: ['closed', 'opened']
+
+# roboflow:
+#   workspace: aps360
+#   project: eye-detector-01g2k-uornl
+#   version: 3
+#   license: Public Domain
+#   url: https://universe.roboflow.com/aps360/eye-detector-01g2k-uornl/dataset/3
