@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['yawn']
+
+roboflow:
+  workspace: aps360
+  project: yawn_detection-lfslg-nbjlb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aps360/yawn_detection-lfslg-nbjlb/dataset/1
