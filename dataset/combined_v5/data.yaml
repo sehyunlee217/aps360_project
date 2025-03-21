@@ -1,0 +1,13 @@
+train: /train/images
+val: /valid/images
+test: /test/images
+
+nc: 2
+names: ["closed", "opened"]
+
+roboflow:
+  workspace: aps360
+  project: eye-detector-01g2k-nkpxw
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/aps360/eye-detector-01g2k-nkpxw/dataset/1
