@@ -1,9 +1,9 @@
-train: /train/images
-val: /valid/images
-test: /test/images
+train: C:\Users\ZachL\Downloads\APS360\aps360_project\dataset\combined_v5\train
+val: C:\Users\ZachL\Downloads\APS360\aps360_project\dataset\combined_v5\valid
+test: C:\Users\ZachL\Downloads\APS360\aps360_project\dataset\combined_v5\test
 
-nc: 2
-names: ["closed", "opened"]
+nc: 3
+names: ["closed", "opened", "Yawn"]
 
 roboflow:
   workspace: aps360
